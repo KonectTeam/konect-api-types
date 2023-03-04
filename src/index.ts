@@ -12,3 +12,5 @@ export { Class, opt, GenericSketchComponentClass } from './types';
 export { default as SketchComponentFactory } from './factory/SketchComponentFactory';
 export { default as HTTPService } from './service/HTTPService';
 export { default as saveFile } from './file-saver';
+
+export { KonectPlugin } from './plugin';
