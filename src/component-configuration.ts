@@ -16,7 +16,7 @@ export type ComponentDocumentation = {
         description: string;
         type: string;
     }
-} | Component;
+};
 
 export type ComponentEntry = {
     methodName: string;
@@ -39,7 +39,7 @@ export function Component(configuration: ComponentConfiguration) {
     return Reflect.metadata('configuration', configuration);
 }
 
-export function Documentation(documentation: ComponentDocumentation) {
+export function Documentation(documentation: ComponentDocumentation | Component) {
     return Reflect.metadata('documentation', documentation);
 }
 
