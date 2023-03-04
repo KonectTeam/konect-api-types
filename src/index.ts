@@ -1,6 +1,12 @@
 export { default as SketchWrapper } from './sketch-wrapper';
 export { default as SketchComponent} from './sketch-component';
-export { ComponentConfiguration, ComponentSlotConfiguration } from './component-configuration';
+export { ComponentConfiguration,
+    ComponentDocumentation,
+    ComponentEntry,
+    Component,
+    Documentation,
+    Entry
+} from './component-configuration';
 export { Stack, ArrayStack, Queue, ArrayQueue, NumberList } from './data-structures';
 export { Class, opt, GenericSketchComponentClass } from './types';
 export { default as SketchComponentFactory } from './factory/SketchComponentFactory';
