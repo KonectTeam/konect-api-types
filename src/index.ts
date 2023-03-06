@@ -10,6 +10,7 @@ export { ComponentConfiguration,
 export { Stack, ArrayStack, Queue, ArrayQueue, NumberList } from './data-structures';
 export { Class, opt, GenericSketchComponentClass } from './types';
 export { default as SketchComponentFactory } from './factory/SketchComponentFactory';
+export { Factory } from './factory';
 export { default as HTTPService } from './service/HTTPService';
 export { default as saveFile } from './file-saver';
 
